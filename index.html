@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title> pomodoro clock</title>
+   <link rel = 'stylesheet' href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel = 'stylesheet' href ='style.css'>
+    </head>
+    <body>
+        <h1> Pomodoro Clock</h1>
+  <div class='container'>
+    <span class='top' id='topbtn'>
+    <button class = 'btn btn-success' id = 'start'> start </button>
+      <button class = 'btn btn-success' id = 'resume'> resume </button>
+    <button class = 'btn btn-danger ' id = 'stop'>stop</button>
+    <button class = 'btn btn-warning' id = 'reset'>reset</button>
+    </span><br>
+    <div class='left' id='work'>
+      <p> work </p>
+      <button class='btn' id='wdec'>-</button>
+      <h2 id='wminutes'>25</h2>
+      <h2 id='wseconds'>:00 </h2>
+      <button class='btn' id='winc'>+</button>
+    </div>
+    <div class='right' id='break'>
+      <p> break</p>
+      <button class='btn' id='bdec'>-</button>
+      <h2 id='bminutes'>5</h2>
+      <h2 id='bseconds'>:00</h2>
+      <button class='btn' id='binc'>+</button>
+    </div>
+  </div>
+        <script src ='//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+        <script type = "text/javascript" src ='/script.js'></script>
+    </body>
+    <footer> Coded By William Sleaster 4/2/17 </footer>
+</html>
