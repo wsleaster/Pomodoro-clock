@@ -108,9 +108,9 @@ p {
 footer {
   background-color: black;
   color: white;
-  padding: 10px;
   text-align: center;
-  margin: 25%;
-  height: auto;
-  width: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  padding: 10px;
 }
